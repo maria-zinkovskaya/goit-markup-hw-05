@@ -1,0 +1,246 @@
+body {
+  background-color: #fff;
+  color: #555252;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*Site Header*/
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 38px;
+  padding-bottom: 105px;
+}
+
+.logo {
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: #555252;
+  font-weight: 300;
+  margin: 0;
+  text-decoration: none;
+}
+
+.logo::first-letter {
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.site-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  }
+
+.header-nav-list .link {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0px;
+  padding: 2px 36px;
+  color: #0f0101;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-decoration: none;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header-nav-list .link:hover,
+.header-nav-list .link:focus {
+  color: #1abc9c;
+}
+
+/*Section*/
+.product-title {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #515151;
+  font-family: "Roboto";
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 132px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 105px;
+}
+
+.gallery-items {
+  display: flex;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  flex-basis: calc(25% - 30px);
+}
+.gallery-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-items:nth-child(4n) {
+  margin-right: 0;
+}
+
+.gallery-items:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.item-information {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.gallery-description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 900;
+  background-color: #323232;
+  width: 200px;
+  height: 40px;
+  padding-left: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 900;
+  background-color: #8c8c8c;
+  width: 55px;
+  height: 40px;
+  padding-left: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gallery-link:hover .item-information .gallery-description {
+  background-color: #1abc9c;
+}
+
+.gallery-link:hover .item-information .price {
+  background-color: #7fd9c7;
+}
+
+/* News*/
+
+.news-title {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #515151;
+  font-family: "Roboto";
+  font-weight: 900;
+  margin-bottom: 120px;
+  margin-top: 0;
+  text-align: center;
+}
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.news-item {
+  flex-basis: calc(33.3333% - 20px);
+  margin-right: 30px;
+  flex-grow: 0;
+}
+
+.news-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.news-header {
+  height: 54px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.news-description {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.link-button {
+  display: flex;
+  width: 160px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 300;
+  background-color: #1abc9c;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.link-button:hover,
+.link-button:focus {
+  color: #0f0101;
+  background-color: #fff;
+}
