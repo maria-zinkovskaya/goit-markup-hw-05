@@ -142,6 +142,60 @@ html {
 }
 
 /*Section*/
+/*about*/
+.about {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+}
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.about-list-items {
+  margin-right: 15px;
+}
+
+.title-about-item {
+  display: inline-block;
+  height: 25px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.text-about-item {
+  display: block;
+  width: 254px;
+  height: 145px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 300;
+  text-align: center;
+}
+.new-collection {
+  margin: 0;
+  padding: 0;
+  background-color: #e9effd;
+  padding-top: 100px;
+}
+
+.featured-products {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+}
+
 .product-title {
   font-size: 48px;
   letter-spacing: -1px;
