@@ -47,7 +47,7 @@ html {
 
 .user-nav {
   margin: 0px;
-  padding: 23px 0px;
+  padding: 18px 0px;
   background-color: #1abc9c;
 }
 
@@ -67,6 +67,7 @@ html {
   color: #fefefe;
   font-family: "Open Sans";
   font-weight: 300;
+  text-decoration: none;
 }
 
 .store-info-item .mail {
@@ -141,12 +142,68 @@ html {
   color: #1abc9c;
 }
 
+/*Banner*/
+.banner {
+  height: 600px;
+  background-image: url(../Images/girls.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title {
+  font-size: 48px;
+  letter-spacing: -1px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin: 0;
+}
+
+.sales-title {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -1px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+.decoration {
+  color: #1abc9c;
+  font-weight: 600;
+}
+
+.banner-button {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: 1px solid #1abc9c;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  padding-top: 10px;
+  margin-top: 25px;
+}
 /*Section*/
 /*about*/
 .about {
   margin: 0;
   padding: 0;
   padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 .about-list {
@@ -156,11 +213,17 @@ html {
 }
 
 .about-list-items {
-  margin-right: 15px;
+  margin-right: 30px;
+}
+
+.about-list-items:nth-last-child(1) {
+  margin-right: 0;
 }
 
 .title-about-item {
-  display: inline-block;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 30px;
   height: 25px;
   font-size: 18px;
   letter-spacing: 0px;
@@ -174,7 +237,6 @@ html {
 .text-about-item {
   display: block;
   width: 254px;
-  height: 145px;
   font-size: 14px;
   letter-spacing: 0px;
   line-height: 24px;
@@ -182,6 +244,8 @@ html {
   font-family: "Open Sans";
   font-weight: 300;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .new-collection {
   margin: 0;
@@ -354,4 +418,60 @@ html {
 .link-button:focus {
   color: #0f0101;
   background-color: #fff;
+}
+
+/*Footer*/
+.site-footer {
+  margin: 0;
+  padding: 0;
+  background-image: url(../Images/footer-bg.png);
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 134px;
+}
+
+.text-footer {
+  height: 32px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 540px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.input {
+  width: 446px;
+  padding-left: 25px;
+  height: 57px;
+  font-family: "Open Sans";
+  color: #555252;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+}
+
+.button {
+  width: 90px;
+  height: 54px;
+  background-color: #1abc9c;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 2px;
 }
