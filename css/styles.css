@@ -70,7 +70,7 @@ html {
 }
 
 .store-info-item .phone-number::before {
-  content: url(/Images/_phone.png);
+  content: url(/Images/phone.png);
   padding-right: 8px;
 }
 
