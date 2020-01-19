@@ -70,7 +70,7 @@ html {
 }
 
 .store-info-item .phone-number::before {
-  content: url(../Images/_phone.png);
+  content: url(/Images/_phone.png);
   padding-right: 8px;
 }
 
@@ -85,7 +85,7 @@ html {
 }
 
 .store-info-item .mail::before {
-  content: url(../Images/letter.png);
+  content: url(/Images/letter.png);
   margin-right: 8px;
 }
 
@@ -154,7 +154,7 @@ html {
 /*Banner*/
 .banner {
   height: 600px;
-  background-image: url(../Images/girls.jpg);
+  background-image: url(/Images/girls.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -259,7 +259,7 @@ html {
   content: "";
   width: 66px;
   height: 66px;
-  background-image: url(../Images/setting.png);
+  background-image: url(/Images/setting.png);
   background-repeat: no-repeat;
 }
 
@@ -271,7 +271,7 @@ html {
   content: "";
   width: 66px;
   height: 66px;
-  background-image: url(../Images/moneyback.png);
+  background-image: url(/Images/moneyback.png);
   background-repeat: no-repeat;
 }
 
@@ -283,7 +283,7 @@ html {
   content: "";
   width: 66px;
   height: 66px;
-  background-image: url(../Images/worldwide.png);
+  background-image: url(/Images/worldwide.png);
   background-repeat: no-repeat;
 }
 
@@ -295,7 +295,7 @@ html {
   content: "";
   width: 66px;
   height: 66px;
-  background-image: url(../Images/compass.png);
+  background-image: url(/Images/compass.png);
   background-repeat: no-repeat;
 }
 
@@ -340,7 +340,7 @@ html {
 }
 
 .product-title.green-line::after {
-  content: url(../Images/green\line.png);
+  content: url(/Images/greenline.png);
   display: flex;
   justify-content: center;
   padding-top: 28px;
@@ -452,7 +452,7 @@ html {
 }
 
 .news-title.green-line::after {
-  content: url(../Images/green\line.png);
+  content: url(/Images/greenline.png);
   display: flex;
   justify-content: center;
   padding-top: 28px;
@@ -485,7 +485,7 @@ html {
 }
 
 .news-header.small-line::after {
-  content: url(../Images/small\green\line.png);
+  content: url(/Images/smallgreenline.png);
 }
 
 .news-description {
@@ -526,14 +526,14 @@ html {
 .site-footer {
   margin: 0;
   padding: 0;
-  background-image: url(../Images/footer-bg.png);
+  background-image: url(/Images/footer-bg.png);
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 134px;
 }
 
 .news-title.white-line::after {
-  content: url(../Images/white\line.png);
+  content: url(/Images/whiteline.png);
   display: flex;
   justify-content: center;
   padding-top: 28px;
@@ -577,7 +577,7 @@ html {
   width: 90px;
   height: 54px;
   background-color: #1abc9c;
-  background-image: url(../Images/button4.png);
+  background-image: url(/Images/button4.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px 4px 4px 0px;
